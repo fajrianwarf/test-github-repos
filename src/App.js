@@ -1,12 +1,18 @@
+import { createContext, useState } from "react";
 import Index from "./pages/Index";
 
-function App() {
+export const DataContex = createContext([])
 
+function App() {
+  const [data, setData] = useState([])
+  const value = {data, setData}
   
   return (
     <div>
       <div>Github public repositories</div>
-      <Index />
+      <DataContex.Provider value={value}>
+        <Index />
+      </DataContex.Provider>
     </div>
   );
 }
