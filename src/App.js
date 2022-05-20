@@ -1,8 +1,12 @@
+import Index from "./pages/Index";
 
 function App() {
+
+  
   return (
     <div>
-      Github public repositories
+      <div>Github public repositories</div>
+      <Index />
     </div>
   );
 }
