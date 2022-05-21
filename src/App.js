@@ -8,12 +8,9 @@ function App() {
   const value = {data, setData}
   
   return (
-    <div>
-      <div>Github public repositories</div>
       <DataContex.Provider value={value}>
         <Index />
       </DataContex.Provider>
-    </div>
   );
 }
 
