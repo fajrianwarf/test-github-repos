@@ -1,8 +1,10 @@
-# Getting Started with Create React App
+# Github repositories search app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An app that can shows repositories list from github users.
 
-To run this project, you can do:
+Deployed app : [https://test-github-repos.netlify.app/](https://test-github-repos.netlify.app/).
+
+To run this project locally, you can do:
 
 ```
 npm i
